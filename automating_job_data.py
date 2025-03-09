@@ -13,19 +13,19 @@ chrome_options.add_experimental_option("detach", True)  # Keep browser open
 
 driver = webdriver.Chrome(options=chrome_options)
 
-driver.get('https://www.dice.com/home-feed') #enter the site you want to run this script on
+driver.get('https://www.dice.com/home-feed') #website
 
 # Login
 enter_email = WebDriverWait(driver, 10).until(
     EC.presence_of_element_located((By.XPATH, '//input[@type="email"]'))
 )
-enter_email.send_keys('joeyacostax@gmail.com') #enter your login name or email for site
+enter_email.send_keys('EMAIL') #email
 enter_email.send_keys(Keys.ENTER)
 
 enter_password = WebDriverWait(driver, 10).until(
     EC.element_to_be_clickable((By.XPATH, '//input[@type="password"]'))
 )
-enter_password.send_keys('Nothing86!') #enter your login password for site
+enter_password.send_keys('PASSWORD') #password
 enter_password.send_keys(Keys.ENTER)
 
 # Search for jobs
