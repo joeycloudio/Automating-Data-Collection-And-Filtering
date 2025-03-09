@@ -42,19 +42,27 @@ Setup Instructions
 *   **Google Chrome**
     
 *   **Chrome WebDriver** (Ensure compatibility with your Chrome version)
-    
-*   nginxCopyEditpip install selenium
-    
+  
+*   **Install Selenium**
+    ```bash
+    pip install selenium
+    ```
 
 ### Running the Script
 
-1.  bashCopyEditgit clone https://github.com/yourusername/automating-job-data.git
-    
-2.  bashCopyEditcd automating-job-data
-    
-3.  nginxCopyEditpython automating\_job\_data.py
-    
-4.  The extracted job data will be saved as job\_data.csv on your **Desktop**.
+1. **Clone the Repo**
+    ```bash
+   git clone https://github.com/yourusername/automating-job-data.git
+    ```
+2. **CD into the directory**
+   ```bash
+   cd automating-job-data
+   ```
+3. **Run It**
+   ```bash
+   python automating\_job\_data.py
+   ```
+4. The extracted job data will be saved as job\_data.csv on your **Desktop**.
     
 
 Contribution
