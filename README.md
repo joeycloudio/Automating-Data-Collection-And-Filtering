@@ -1,6 +1,6 @@
-Automated Job Data Collection & Filtering  
+Automated Data Collection & Filtering  
 ===================
-_**Automating Job Data** is a Python-based automation tool designed to streamline the process of collecting job postings based on predefined criteria. It helps job seekers quickly extract relevant job listings, reducing manual search time and improving efficiency. The script currently focuses on gathering job data from online job boards, making it easier to analyze and filter high-quality opportunities._  
+_Automating Job Insights is a Python-based tool designed to streamline job market data collection and analysis. It processes job listings based on predefined criteria, enabling structured filtering and extraction of relevant insights. By automating data organization and analysis, the tool helps job seekers efficiently assess opportunities and make informed decisions._  
 
 ## ⚠️ Problem Statement  
 Manually sorting through job listings is time-consuming and inefficient.
